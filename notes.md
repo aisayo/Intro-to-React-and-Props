@@ -53,9 +53,10 @@
 
 ```ReactDOM.render(<App />, document.getElementById('root'))```
 
-    - uses ReactDOM package + render function to render a React element into DOM
+    - Renders a React element into DOM [ReactDOM Render function](https://reactjs.org/docs/react-dom.html#render)
+
 
 ```{JS Expressions}```
 
+- Anything that returns a value: Variable, Boolean, Object, 
 - [Mozilla Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions)
-
