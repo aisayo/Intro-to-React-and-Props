@@ -78,6 +78,11 @@
 - Can be any datatype: strings, booleans, numbers, object or function
 - Name props from the component’s own point of view rather than the context in which it is being used
 
+### Default Props
+
+- allow for a default if prop is not provided
+- Need to add `defaultProps` to class => ```Class.defaultProps = { prop: value }```
+
 ## Good to know :thought_balloon:
 
 ```ReactDOM.render(<App />, document.getElementById('root'))```
@@ -108,6 +113,7 @@
 - The function does not produce any observable side effects such as network requests, input and output devices, or data mutation.
 - A pure function can not depend on outside variables.
 - Not all functions need to be pure, event handlers do not
+- All React components must act like pure functions with respect to their props.
 - [Pure functions](https://www.freecodecamp.org/news/what-is-a-pure-function-in-javascript-acb887375dfe/)
 
 ## VSCode extensions for react
