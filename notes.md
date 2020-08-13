@@ -78,3 +78,13 @@
 - Looks like HTML but it’s more JS
 - Produces React elements
 - [Babel Repl](https://babeljs.io/repl/#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&spec=false&loose=false&code_lz=MYewdgzgLgBApgGzgWzmWBeGAeAFgRgD4AJRBEAGhgHcQAnBAEwEJsB6AwgbgChRJY_KAEMAlmDh0YWRiGABXVOgB0AczhQAokiVQAQgE8AkowAUAcjogQUcwEpeAJTjDgUACIB5ALLK6aRklTRBQ0KCohMQk6Bx4gA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=react&prettier=false&targets=&version=7.11.1&externalPlugins=)
+
+## Props
+
+- Component properties
+- Allow us to pass values into our components
+- Allow components to be dynamic and reusable
+- Accessible with ```this.props``` in class components
+- In simple components: ```props.<name of prop>```
+- Read only, can not be changed by component
+- Can be any datatype: strings, booleans, numbers, object or function
