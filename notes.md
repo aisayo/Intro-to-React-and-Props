@@ -20,21 +20,27 @@
 
 ## Working with React
 
-1. Can add React to an existing project:
+### Add React to an existing project
 
 * Need to add 3 CDN’s: React, React DOM, Babel
 * React: the top level React API
 * React DOM: adds DOM specific methods
 * Babel: JS compiler that allows use of ES6 in older browsers
 
+#### Inside index.html file
+
+* Add a div with a root id
+
+ ```<div id="root"></div>```
+
+* Add script tag where react code will live
+
 ```
-Inside index.html file
- * Add a div with a root id `<div id="root"></div>`
-Add script tag where react code will live
+    <script type="text/babel">
+      // React code will go here
+    </script>
 ```
 
-Creating a react app 
-Npx create-react-app <name of app>
-Index.html => Div with id=root
+### Creating a React app
 
-
+* ```Npx create-react-app <name of app>```
