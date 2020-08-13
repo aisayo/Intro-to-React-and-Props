@@ -7,7 +7,7 @@
 * Used to build front end user interfaces
 * The view layer of the MVC application
 * Component based and uses state and props to streamline how data is stored and used
-* You can use a small part of react in website or build interactive SPA with React
+* You can use a small part of React in website or build interactive SPA with React
 * [React JS Docs](https://reactjs.org/)
 
 ## React Features
@@ -17,4 +17,24 @@
 * Babel - transpiler that converts modern JavaScript and custom code like JSX into more widely compatible JavaScript; [Doc](https://babeljs.io/docs/en/)
 * Webpack - a 'bundler' that takes all our work, along with any required dependency code, and packages it all up in a single, transferable bundle [Doc](https://webpack.js.org/)
 * ESLint - helps improve our code [Doc](https://eslint.org/docs/user-guide/getting-started)
+
+## Working with React
+
+1. Can add React to an existing project:
+
+* Need to add 3 CDN’s: React, React DOM, Babel
+* React: the top level React API
+* React DOM: adds DOM specific methods
+* Babel: JS compiler that allows use of ES6 in older browsers
+
+```
+Inside index.html file
+ * Add a div with a root id `<div id="root"></div>`
+Add script tag where react code will live
+```
+
+Creating a react app 
+Npx create-react-app <name of app>
+Index.html => Div with id=root
+
 
