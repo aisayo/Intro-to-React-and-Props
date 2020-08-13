@@ -49,21 +49,6 @@
 
 * ```Npx create-react-app <name of app>```
 
-## Good to know :thought_balloon:
-
-```ReactDOM.render(<App />, document.getElementById('root'))```
-
-- Renders a React element into DOM [ReactDOM Render function](https://reactjs.org/docs/react-dom.html#render)
-
-```{JS Expressions}```
-
-- Anything that returns a value
-- [Mozilla Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions)
-
-```React Devtools```
-
-- [Chrome Extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
-
 ## React consists of many Components
 
 - “Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.”
@@ -88,3 +73,27 @@
 - In simple components: ```props.<name of prop>```
 - Read only, can not be changed by component
 - Can be any datatype: strings, booleans, numbers, object or function
+
+## Good to know :thought_balloon:
+
+```ReactDOM.render(<App />, document.getElementById('root'))```
+
+- Renders a React element into DOM [ReactDOM Render function](https://reactjs.org/docs/react-dom.html#render)
+- Everything inside of a React root DOM node is managed by ReactDOM
+- Most React applications only call this one time in entire app
+- React DOM compares the element and its children to the previous one, and only applies the DOM updates necessary to bring the DOM to the desired state
+
+```{JS Expressions}```
+
+- Anything that returns a value
+- [Mozilla Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions)
+
+```React Devtools```
+
+- [Chrome Extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+
+```React Elements```
+- Anything you want to see on the screen
+- Not components! Components are made of elements
+- Represents the UI at a certain point in time
+- Immutable, only way to update UI is to create new element
