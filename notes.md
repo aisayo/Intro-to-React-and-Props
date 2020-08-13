@@ -77,7 +77,6 @@
 - Read only, can not be changed by component, this maintains `pure functions` meaning behavior can always be predicted
 - Can be any datatype: strings, booleans, numbers, object or function
 - Name props from the component’s own point of view rather than the context in which it is being used
-- [Pure functions](https://www.freecodecamp.org/news/what-is-a-pure-function-in-javascript-acb887375dfe/)
 
 ## Good to know :thought_balloon:
 
@@ -102,3 +101,20 @@
 - Not components! Components are made of elements
 - Represents the UI at a certain point in time
 - Immutable, only way to update UI is to create new element
+
+```Pure Functions```
+- Predictable functions
+- The function always returns the same result if the same arguments are passed in. It does not depend on any state, or data, change during a program’s execution. It must only depend on its input arguments.
+- The function does not produce any observable side effects such as network requests, input and output devices, or data mutation.
+- A pure function can not depend on outside variables.
+- Not all functions need to be pure, event handlers do not
+- [Pure functions](https://www.freecodecamp.org/news/what-is-a-pure-function-in-javascript-acb887375dfe/)
+
+## VSCode extensions for react
+
+- <https://marketplace.visualstudio.com/items?itemName=skyran.js-jsx-snippets>
+- <https://marketplace.visualstudio.com/items?itemName=blanu.vscode-styled-jsx>
+- <https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint>
+- <https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets>
+- <https://marketplace.visualstudio.com/items?itemName=planbcoding.vscode-react-refactor>
+- <https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets>
