@@ -49,7 +49,7 @@
 
 * ```Npx create-react-app <name of app>```
 
-## Good to know
+## Good to know :thought_balloon:
 
 ```ReactDOM.render(<App />, document.getElementById('root'))```
 
@@ -57,5 +57,24 @@
 
 ```{JS Expressions}```
 
-- Anything that returns a value: Variable, Boolean, Object, 
+- Anything that returns a value
 - [Mozilla Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions)
+
+```React Devtools```
+
+- [Chrome Extension](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+
+## React consists of many Components
+
+- “Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.”
+- Almost everything in React consists of components
+- Used to house modularized front end code
+- Like custom, reusable html elements
+- Can be class or simple components
+
+## JSX
+
+- JavaScript XML
+- Looks like HTML but it’s more JS
+- Produces React elements
+- [Babel Repl](https://babeljs.io/repl/#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&spec=false&loose=false&code_lz=MYewdgzgLgBApgGzgWzmWBeGAeAFgRgD4AJRBEAGhgHcQAnBAEwEJsB6AwgbgChRJY_KAEMAlmDh0YWRiGABXVOgB0AczhQAokiVQAQgE8AkowAUAcjogQUcwEpeAJTjDgUACIB5ALLK6aRklTRBQ0KCohMQk6Bx4gA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=react&prettier=false&targets=&version=7.11.1&externalPlugins=)
