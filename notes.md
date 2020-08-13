@@ -36,9 +36,13 @@
 * Add script tag where react code will live
 
 ```
+  <body>
+    <div id="root"></div>
+
     <script type="text/babel">
       // React code will go here
     </script>
+  </body>
 ```
 
 ### Creating a React app
