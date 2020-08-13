@@ -48,3 +48,14 @@
 ### Creating a React app
 
 * ```Npx create-react-app <name of app>```
+
+## Good to know
+
+```ReactDOM.render(<App />, document.getElementById('root'))```
+
+    - uses ReactDOM package + render function to render a React element into DOM
+
+```{JS Expressions}```
+
+- [Mozilla Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions)
+
