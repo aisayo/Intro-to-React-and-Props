@@ -53,8 +53,7 @@
 
 ```ReactDOM.render(<App />, document.getElementById('root'))```
 
-    - Renders a React element into DOM [ReactDOM Render function](https://reactjs.org/docs/react-dom.html#render)
-
+- Renders a React element into DOM [ReactDOM Render function](https://reactjs.org/docs/react-dom.html#render)
 
 ```{JS Expressions}```
 
