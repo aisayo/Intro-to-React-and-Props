@@ -56,6 +56,8 @@
 - Used to house modularized front end code
 - Like custom, reusable html elements
 - Can be class or simple components
+- A good rule of thumb is that if a part of your UI is used several times or is complex enough on its own it is a good candidate to be extracted to a separate component.
+- [React.Component API](https://reactjs.org/docs/react-component.html)
 
 ## JSX
 
@@ -63,6 +65,7 @@
 - Looks like HTML but it’s more JS
 - Produces React elements
 - [Babel Repl](https://babeljs.io/repl/#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&spec=false&loose=false&code_lz=MYewdgzgLgBApgGzgWzmWBeGAeAFgRgD4AJRBEAGhgHcQAnBAEwEJsB6AwgbgChRJY_KAEMAlmDh0YWRiGABXVOgB0AczhQAokiVQAQgE8AkowAUAcjogQUcwEpeAJTjDgUACIB5ALLK6aRklTRBQ0KCohMQk6Bx4gA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=react&prettier=false&targets=&version=7.11.1&externalPlugins=)
+-[JSX In Depth](https://reactjs.org/docs/jsx-in-depth.html)
 
 ## Props
 
@@ -71,8 +74,10 @@
 - Allow components to be dynamic and reusable
 - Accessible with ```this.props``` in class components
 - In simple components: ```props.<name of prop>```
-- Read only, can not be changed by component
+- Read only, can not be changed by component, this maintains `pure functions` meaning behavior can always be predicted
 - Can be any datatype: strings, booleans, numbers, object or function
+- Name props from the component’s own point of view rather than the context in which it is being used
+- [Pure functions](https://www.freecodecamp.org/news/what-is-a-pure-function-in-javascript-acb887375dfe/)
 
 ## Good to know :thought_balloon:
 
