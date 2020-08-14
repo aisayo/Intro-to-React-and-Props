@@ -83,6 +83,13 @@
 - allow for a default if prop is not provided
 - Need to add `defaultProps` to class => ```Class.defaultProps = { prop: value }```
 
+## Modular Code
+
+- Separation of Concerns to the extreme
+- Single responsibility principle
+- Readability + Eases debugging
+- DRY
+
 ## Good to know :thought_balloon:
 
 ```ReactDOM.render(<App />, document.getElementById('root'))```
