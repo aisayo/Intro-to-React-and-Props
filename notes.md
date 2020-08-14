@@ -89,6 +89,7 @@
 - Single responsibility principle
 - Readability + Eases debugging
 - DRY
+- Import vs Exports
 
 ## Good to know :thought_balloon:
 
